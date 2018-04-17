@@ -1,7 +1,7 @@
 package com.shamim.question70;
 
-public class PingPong implements Runnable{
-    synchronized  void hit(long n){
+public class PingPong implements Runnable {
+    synchronized void hit(long n) {
         for (int i = 1; i < 3; i++)
             System.out.print(n + "_" + i + " ");
     }

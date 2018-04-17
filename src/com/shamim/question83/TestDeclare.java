@@ -1,11 +1,12 @@
 package com.shamim.question83;
 
-interface DeclareStuff{
+interface DeclareStuff {
     public static final int EASY = 3;
+
     void doStuff(int t);
 }
 
-public class TestDeclare implements DeclareStuff{
+public class TestDeclare implements DeclareStuff {
 
     @Override
     public void doStuff(int s) {

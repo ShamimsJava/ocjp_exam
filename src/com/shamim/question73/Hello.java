@@ -4,7 +4,7 @@ public class Hello {
     String title;
     int value;
 
-    public Hello(){
+    public Hello() {
         title += "World";
     }
 

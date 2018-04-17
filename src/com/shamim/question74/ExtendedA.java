@@ -1,14 +1,14 @@
 package com.shamim.question74;
 
-class ClassA{
+class ClassA {
     public int numberOfInstnces;
 
-    protected ClassA(int numberOfInstnces){
+    protected ClassA(int numberOfInstnces) {
         this.numberOfInstnces = numberOfInstnces;
     }
 }
 
-public class ExtendedA extends  ClassA{
+public class ExtendedA extends ClassA {
     private ExtendedA(int numberOfInstnces) {
         super(numberOfInstnces);
     }
