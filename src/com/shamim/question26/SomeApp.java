@@ -6,7 +6,9 @@ public class SomeApp {
 
         byte[] bytes = new byte[256];
 
-        // SomeApp cannot use the process method in BitUtils.
+        BitUtils.process(bytes);
+
+
     }
 
 }
