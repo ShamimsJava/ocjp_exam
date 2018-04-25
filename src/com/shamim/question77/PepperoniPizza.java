@@ -6,12 +6,15 @@ class Pizza {
     ArrayList toppings;
 
     public void addTopping(String topping) { // if we use final keyword then compilation error
+
         toppings.add(topping);
     }
 }
 
 public class PepperoniPizza extends Pizza {
+
     public void addTopping(String topping) {
+
         System.out.println("Cannot add Toppings");
     }
 

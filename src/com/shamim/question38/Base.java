@@ -10,7 +10,7 @@ public class Base {
 
         Sub s = new Sub();
 
-        System.out.print(Base.FOO);
+        System.out.print(Base.FOO);   //foobarfoobar
         System.out.print(Sub.FOO);
         System.out.print(b.FOO);
         System.out.print(s.FOO);

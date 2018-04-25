@@ -52,5 +52,4 @@ public class InvokationExample {
         e.bMethod();
 
     }
-
 }
