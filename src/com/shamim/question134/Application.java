@@ -15,4 +15,8 @@ class Boochy{
 }
 
 public class Application {
+    public static void main(String[] args) {
+        Snoochy snoog = new Snoochy();
+        snoog = null;
+    }
 }
